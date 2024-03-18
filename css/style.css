@@ -1,0 +1,12 @@
+.main-bg {
+    background-color: #141414;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #333333;
+    width: 380px;
+    height: 612px;
+}
