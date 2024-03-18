@@ -13,7 +13,7 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   color: #ffffff;
 }
@@ -24,9 +24,10 @@
 }
 .avatar-box {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 40%;
+  justify-content: space-between;
 }
 .box {
   width: 300px;
@@ -38,6 +39,8 @@
   font-weight: 600;
   font-style: normal;
   font-variation-settings: "slnt" 0;
+  border-radius: 6px;
+  padding: 12px;
 }
 h3 {
   font-family: "Inter", sans-serif;
@@ -50,13 +53,14 @@ h3 {
 p {
   font-size: 14px;
 }
-span {
+.location {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   font-variation-settings: "slnt" 0;
   color: #c5f82a;
+  margin-bottom: 20px;
 }
 .status {
   font-family: "Inter", sans-serif;
@@ -66,4 +70,10 @@ span {
   font-variation-settings: "slnt" 0;
   font-size: 14px;
   color: #d7d2d2;
+}
+.box:hover {
+  color: #0f0f0e;
+  background-color: #c5f82a;
+  cursor: pointer;
+  cursor: url("../images/handcursor.svg"), auto;
 }
